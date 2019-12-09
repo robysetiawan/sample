@@ -6,10 +6,10 @@ import (
 )
 
 func main(){
-	port := os.Getenv("PORT)
-	e :=
+	port := os.Getenv("PORT")
 	e := routes.New()
-	e.Logger.Fatal(e.Start(":8000"))
+	e.Logger.Fatal(e.Start(":"+port))
+
 
 	
 }
